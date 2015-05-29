@@ -1,20 +1,25 @@
-putfile@1.1.0
+putfile
 ===
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
+[![Dependency Status][david-image]][david-url]
+[npm-image]: https://img.shields.io/npm/v/putfile.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/putfile
+[downloads-image]: http://img.shields.io/npm/dm/putfile.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/putfile
+[david-image]: http://img.shields.io/david/chunpu/putfile.svg?style=flat-square
+[david-url]: https://david-dm.org/chunpu/putfile
+
 
 File Upload server with command-line
-
-===
 
 Installation
 ---
 
 ```sh
-npm install putfile -g
+npm i putfile -g
 ```
-
 
 Usage
 ---
@@ -42,9 +47,7 @@ cat my.file | curl -F my.file=@-
 License
 ---
 
-ISC
+[![License][license-image]][license-url]
 
-[npm-image]: https://img.shields.io/npm/v/putfile.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/putfile
-[downloads-image]: http://img.shields.io/npm/dm/putfile.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/putfile
+[license-image]: http://img.shields.io/npm/l/putfile.svg?style=flat-square
+[license-url]: #
