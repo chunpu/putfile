@@ -27,7 +27,7 @@ var multipart = multer({
 app
     // static server 
     .use(express.static(dir))
-    .use(serveIndex(dir))
+    //.use(serveIndex(dir))
 
     // upload
     .use(function(req, res, next) {
